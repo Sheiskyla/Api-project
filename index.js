@@ -17,7 +17,7 @@ let studentRecords = [
     {id: 5, studentName: "Dimmy", studentCourse: "Cyber Security", studentLevel: "Level 3"},
 ]
 
-app.get("/students", (req,res) =>{
+app.get("/", (req,res) =>{
     res.send(studentRecords)
 })
 
